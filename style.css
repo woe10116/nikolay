@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    background: lightyellow;
+}
+h3{
+    font-size:4em;
+    color:orange;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 19px;
+}
+p{
+    font-size: 2em;
+    color: red;
+}
+h1{
+    font-size: 2em;
+    color: red;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 19px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width:1120px;
+    margin:0px auto;
+}
+a{
+    transition: all .2s;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+}
+a:link{
+    color:green;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* a:visited{
+    color:pink;
+    background-color: transparent;
+    text-decoration: none;
+} */
+a:hover{
+    color:red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active{
+    color:yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.active-desktop-link{
+    color:pink;
+}
+img{
+    transition: all .2s;
+    cursor: pointer;
+}
+img:hover{
+    transform: translateY(-2px);
+    
+}
